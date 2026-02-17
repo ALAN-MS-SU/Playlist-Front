@@ -7,6 +7,8 @@
     --color-primary-1: #E0F2FE;
     --color-text-light: #fff;
     --color-text-dark: #000;
+    --color-err: #8F2A1C;
+    --color-err-hover: #B12A00;
     --color-bg: #F8FAFC;
     --font-normal: 'Nunito', sans-serif;
 }
@@ -16,7 +18,6 @@
         padding: 0;
         box-sizing: border-box;
         font-family: var(--font-normal);
-        color: var(--color-text-dark);
     }
     body{
         background-color: var(--color-bg);
