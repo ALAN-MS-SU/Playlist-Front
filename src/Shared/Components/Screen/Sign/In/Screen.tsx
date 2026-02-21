@@ -7,7 +7,11 @@ import {Regex} from "@/Utils/Regex";
 import {useState} from "react";
 import {ScreenLoading} from "@/Shared/Components/Form/Request/Loading";
 import {PopError} from "@/Shared/Components/Form/Request/Error";
+import {UserService} from "@/Services/API/User";
+import {useRouter} from "next/navigation";
+
 export function SignIn(){
+    const Router = useRouter();
   const [Loading,SetLoading]=useState<boolean>(false);
   const [Error,SetError]=useState<string|undefined>(undefined);
     return <>
@@ -16,7 +20,6 @@ export function SignIn(){
     <div className={"flex flex-col justify-center items-center h-screen"}>
         <Form onSubmit={async (e)=>{
             e.preventDefault();
-            console.log(Loading)
             SetLoading(true);
             const [Email,Password] = new FormData(e.currentTarget).values().map((Value)=>String(Value));
             
@@ -30,6 +33,12 @@ export function SignIn(){
                 SetLoading(false);
                 return;
             }
+            const Login = await UserService.SignIn({Email,Password})
+            if (Login) {
+                return Router.push(`/Sign/TF/${Email}`);
+            }
+            SetError("Credenciais inválidas")
+            SetLoading(false);
             
         }} className={`max-w-2xl h-120`}>
             <Tittle Text={"Entrar"}/>

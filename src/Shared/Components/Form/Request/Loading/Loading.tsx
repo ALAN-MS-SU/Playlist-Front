@@ -9,3 +9,10 @@ export function ScreenLoading({Show}:{Show:boolean}){
    </div>
     
 }
+export function ContentLoading({Show}:{Show:boolean}){
+
+    return<div className={`${Show ? "flex" : "hidden" } w-full h-full bg-primary-4 opacity-80 flex-col justify-center items-center`}>
+        <Image alt={"Loading"} src={Loading} />
+    </div>
+
+}

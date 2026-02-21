@@ -1,4 +1,4 @@
-import {SignIn} from "@/Shared/Components/Screen/Sing/In/Screen";
+import {SignIn} from "@/Shared/Components/Screen/Sign/In/Screen";
 
 
 export const dynamic = 'force-static'
