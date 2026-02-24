@@ -13,4 +13,10 @@ export class UserService {
           return data.data;
         }).catch(()=>undefined);
     }
+    public static async TF({Email,Code}:{Email:string,Code:string}){
+        const Expires = Number(process.env.NEXT_PUBLIC_TOKEN_EXPIRES!)*1000*60*60*24;
+        return await API.post(`User/2FA`,{Email,Code},{withCredentials:true}).then(res=>{
+            return res.status === 202;
+        }).catch(()=>false);
+    }
 }

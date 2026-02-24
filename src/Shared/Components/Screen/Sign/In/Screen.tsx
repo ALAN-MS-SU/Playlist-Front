@@ -10,7 +10,7 @@ import {PopError} from "@/Shared/Components/Form/Request/Error";
 import {UserService} from "@/Services/API/User";
 import {useRouter} from "next/navigation";
 
-export function SignIn(){
+export function Screen(){
     const Router = useRouter();
   const [Loading,SetLoading]=useState<boolean>(false);
   const [Error,SetError]=useState<string|undefined>(undefined);
@@ -35,7 +35,7 @@ export function SignIn(){
             }
             const Login = await UserService.SignIn({Email,Password})
             if (Login) {
-                return Router.push(`/Sign/TF/${Email}`);
+                return Router.push(`/Sign/QrCode/${Email}`);
             }
             SetError("Credenciais inválidas")
             SetLoading(false);
