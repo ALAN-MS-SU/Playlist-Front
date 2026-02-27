@@ -1,4 +1,6 @@
-export  function Tittle({Text}:{Text:string}){
+import {HTMLAttributes} from "react";
+
+export  function Tittle({Text,className}:{Text:string}&Pick<HTMLAttributes<HTMLHeadingElement>,"className">){
     
-    return <h1 className={`text-center font-bold text-2xl`}>{Text}</h1>
+    return <span className={`text-center font-bold text-2xl ${className}`}>{Text}</span>
 }

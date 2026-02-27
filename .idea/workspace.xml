@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a8e049dd-6421-444d-8c43-614d5d316b1d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Services/API/Playlist/Playlist.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/API/Playlist/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shared/Components/Grid/Box/Playlist/Box.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shared/Components/Grid/Box/Playlist/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shared/Components/Grid/Template.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shared/Components/Grid/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shared/Components/Screen/Sections/Home/Home.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shared/Components/Screen/Sign/Out/Screen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Types/Playlist/Playlist.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Types/Playlist/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Utils/URL/Youtube.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Utils/URL/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(Auth)/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(NoAuth)/Sign/Out/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Context/Auth/Context.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Context/Auth/Context.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/API/User/User.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/API/User/User.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shared/Components/Form/Request/Error/Error.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shared/Components/Form/Request/Error/Error.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shared/Components/Form/Request/Loading/Loading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shared/Components/Form/Request/Loading/Loading.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shared/Components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shared/Components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shared/Components/Header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shared/Components/Header/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shared/Components/Screen/Sections/Grid/Home/Home.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shared/Components/Screen/Sections/Grid/Home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shared/Components/Screen/Sections/Home/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shared/Components/Screen/Sign/In/Screen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shared/Components/Screen/Sign/In/Screen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shared/Components/Text/Tittle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shared/Components/Text/Tittle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(Any)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(Auth)/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(Any)/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="39dJU4m0AhVrSdkA7NPgrNdhITD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
+    &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/foot/Downloads/playlist&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CodeLensConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/foot/Downloads/playlist/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="npm.Next.js: server-side">
+    <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
+      <method v="2" />
+    </configuration>
+    <configuration name="Next.js: server-side" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8e049dd-6421-444d-8c43-614d5d316b1d" name="Changes" comment="" />
+      <created>1771020027210</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1771020027210</updated>
+      <workItem from="1771020029159" duration="1112000" />
+      <workItem from="1771078497370" duration="4859000" />
+      <workItem from="1771096818999" duration="5237000" />
+      <workItem from="1771108358899" duration="1337000" />
+      <workItem from="1771117926868" duration="3630000" />
+      <workItem from="1771190227859" duration="5465000" />
+      <workItem from="1771206815754" duration="2127000" />
+      <workItem from="1771258016325" duration="3851000" />
+      <workItem from="1771363803740" duration="6944000" />
+      <workItem from="1771538912242" duration="3029000" />
+      <workItem from="1771548009112" duration="265000" />
+      <workItem from="1771552069948" duration="2833000" />
+      <workItem from="1771554999757" duration="29000" />
+      <workItem from="1771623081883" duration="3839000" />
+      <workItem from="1771636019730" duration="9000" />
+      <workItem from="1771636118280" duration="2418000" />
+      <workItem from="1771688094169" duration="2230000" />
+      <workItem from="1771722849773" duration="2365000" />
+      <workItem from="1771765162903" duration="2843000" />
+      <workItem from="1771789326027" duration="7253000" />
+      <workItem from="1771809323150" duration="1901000" />
+      <workItem from="1771862051838" duration="1839000" />
+      <workItem from="1771871137409" duration="2039000" />
+      <workItem from="1771879300581" duration="5624000" />
+      <workItem from="1771894419729" duration="5756000" />
+      <workItem from="1771963708628" duration="8115000" />
+      <workItem from="1771985003273" duration="2069000" />
+      <workItem from="1772032827662" duration="4381000" />
+      <workItem from="1772052313334" duration="4936000" />
+      <workItem from="1772206632766" duration="1774000" />
+      <workItem from="1772220129043" duration="3640000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add JWT Auth">
+      <option name="closed" value="true" />
+      <created>1771901486955</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1771901486955</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add header">
+      <option name="closed" value="true" />
+      <created>1771969815376</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1771969815376</updated>
+    </task>
+    <task id="LOCAL-00003" summary="remove ideia">
+      <option name="closed" value="true" />
+      <created>1771969951792</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1771969951792</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Add JWT Auth" />
+    <MESSAGE value="add header" />
+    <MESSAGE value="remove ideia" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove ideia" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/Context/Auth/Context.tsx</url>
+          <line>1</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/Shared/Components/Form/Input/Input.tsx</url>
+          <line>19</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/Shared/Components/Screen/Sign/In/Screen.tsx</url>
+          <line>1</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

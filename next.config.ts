@@ -9,6 +9,16 @@ const nextConfig: NextConfig = {
      //         },
      //     ];
      // }
+    images: {
+        remotePatterns: [
+            {
+                protocol: "https",
+                hostname: "img.youtube.com",
+               // port: "3000",
+                pathname: "/**",
+            },
+        ],
+    },
 };
 
 export default nextConfig;

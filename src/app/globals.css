@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-    --color-primary-4: #0F172A;
+    --color-primary-4: #0339dd;
     --color-primary-3: #3B82F6;
     --color-primary-2: #93C5FD;
     --color-primary-1: #E0F2FE;
@@ -22,6 +22,7 @@
     }
     body{
         background-color: var(--color-bg);
+        overflow: hidden;
     }
 }
    

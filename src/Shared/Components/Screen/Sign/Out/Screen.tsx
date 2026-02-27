@@ -22,7 +22,7 @@ export function Screen(){
         <Form onSubmit={async (e)=>{
             e.preventDefault();
             SetLoading(true);
-            const [Email,Password] = new FormData(e.currentTarget).values().map((Value)=>String(Value));
+            const [Name,Email,Password] = new FormData(e.currentTarget).values().map((Value)=>String(Value));
             
             if(Regex.Empty(Email,Password)) {
                 SetError("Preencha todos os campos.")
@@ -34,20 +34,27 @@ export function Screen(){
                 SetLoading(false);
                 return;
             }
-            const Login = await UserService.SignIn({Email,Password})
-            if (Login) {
+            let Res = await UserService.SignOut({Name,Email,Password})
+            if(!Res) {
+                SetError("Erro ao criar conta.");
+                SetLoading(false);
+                return;
+            }
+            Res = await UserService.SignIn({Email,Password})
+            if (Res) {
                 return Router.push(`/Sign/QrCode/${Email}`);
             }
-            SetError("Credenciais inválidas")
+            SetError("Ao gerar o QrCode.")
             SetLoading(false);
             
-        }} className={`max-w-2xl h-130 py-15 relative`}>
-            <Tittle Text={"Entrar"}/>
+        }} className={`max-w-2xl h-140 py-15 relative z-10`}>
+            <Tittle Text={"Criar conta"}/>
+            <Input placeholder={"Nome"} Name={"Name"} Label={"Nome"} type={"text"}/>
             <Input placeholder={"Email"} Name={"Email"} Label={"Email"} type={"email"}/>
             <Input placeholder={"Senha"} Name={"Password"} Label={"Password"} type={"password"}/>
-            <Button type={"submit"} Text={"Entrar"}/>
+            <Button type={"submit"} Text={"Cadastrar"}/>
             <div className={"w-full flex flex-col justify-between items-center absolute bottom-2"}>
-                <p className={"text-sm"}>Não tem uma conta? <Link href={"/Sign/Out"} className={"text-primary-4 underline"} >Criar conta</Link></p>
+                <p className={"text-sm"}>Já tem uma conta? <Link href={"/Sign/In"} className={"text-primary-4 underline"} >Entrar</Link></p>
                 <p className={"text-sm"}>Não lembra a senha? <Link href={"/Sign/Password"} className={"text-primary-4 underline"} >Esqueci a senha</Link></p>
             </div>
         </Form>

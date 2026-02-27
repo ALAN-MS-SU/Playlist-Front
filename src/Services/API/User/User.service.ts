@@ -8,6 +8,11 @@ export class UserService {
 
         }).catch(()=>false);
     }
+    public static async SignOut({Name,Email,Password}:{Name:string,Email:string,Password:string}){
+        return await API.post("/User", {Name,Email, Password}).then(res => {
+            return res.status === 201;
+        }).catch(()=>false);
+    }
     public static async QrCode(Email:string){
         return await API.get(`/User/QrCode/${Email}`,{responseType:"blob"}).then((data)=>{
           return data.data;
