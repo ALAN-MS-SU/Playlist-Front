@@ -24,7 +24,6 @@ export function Screen({Email}:{Email:string}){
             const Code = String(new FormData(e.currentTarget).get("Code"));
             const JWT = await UserService.TF({Email,Code})
             if(JWT) {
-               
                 Router.replace("/");
                 SetLoading(false);
                 return;

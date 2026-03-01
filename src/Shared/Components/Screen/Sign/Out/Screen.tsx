@@ -55,7 +55,7 @@ export function Screen(){
             <Button type={"submit"} Text={"Cadastrar"}/>
             <div className={"w-full flex flex-col justify-between items-center absolute bottom-2"}>
                 <p className={"text-sm"}>Já tem uma conta? <Link href={"/Sign/In"} className={"text-primary-4 underline"} >Entrar</Link></p>
-                <p className={"text-sm"}>Não lembra a senha? <Link href={"/Sign/Password"} className={"text-primary-4 underline"} >Esqueci a senha</Link></p>
+                <p className={"text-sm"}>Não lembra a senha? <Link href={"/Password"} className={"text-primary-4 underline"} >Esqueci a senha</Link></p>
             </div>
         </Form>
     </div>

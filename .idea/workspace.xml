@@ -5,30 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8e049dd-6421-444d-8c43-614d5d316b1d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Services/API/Playlist/Playlist.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Services/API/Playlist/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Services/API/User/User.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/API/User/User.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shared/Components/Grid/Box/Playlist/Box.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shared/Components/Grid/Box/Playlist/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shared/Components/Grid/Template.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shared/Components/Grid/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shared/Components/Header/Header.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shared/Components/Header/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shared/Components/Screen/Sections/Home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shared/Components/Screen/Sections/Home/Home.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/API/User/Password/Password.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/API/User/Password/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shared/Components/Screen/Password/Screen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(NoAuth)/Password/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shared/Components/Form/Input/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shared/Components/Form/Input/Input.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Shared/Components/Screen/Sign/In/Screen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shared/Components/Screen/Sign/In/Screen.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Shared/Components/Screen/Sign/Out/Screen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shared/Components/Screen/Sign/Out/Screen.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Types/JWT/JWT.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Types/JWT/JWT.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Types/Playlist/Playlist.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Types/Playlist/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utils/URL/Youtube.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utils/URL/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(Auth)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(Auth)/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(NoAuth)/Sign/Out/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(NoAuth)/Sign/Up/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shared/Components/Screen/Sign/TF/Screen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shared/Components/Screen/Sign/TF/Screen.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +111,7 @@
       <workItem from="1772290082225" duration="876000" />
       <workItem from="1772296272082" duration="2191000" />
       <workItem from="1772307001698" duration="5074000" />
-      <workItem from="1772319529709" duration="2235000" />
+      <workItem from="1772319529709" duration="7216000" />
     </task>
     <task id="LOCAL-00001" summary="Add JWT Auth">
       <option name="closed" value="true" />
@@ -153,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771969951792</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update auth and Add home">
+      <option name="closed" value="true" />
+      <created>1772324094883</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1772324094883</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +169,8 @@
     <MESSAGE value="Add JWT Auth" />
     <MESSAGE value="add header" />
     <MESSAGE value="remove ideia" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove ideia" />
+    <MESSAGE value="Update auth and Add home" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update auth and Add home" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -213,6 +206,11 @@
           <url>file://$PROJECT_DIR$/src/Shared/Components/Screen/Sections/Home/Home.tsx</url>
           <line>1</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/Services/API/User/User.service.ts</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
