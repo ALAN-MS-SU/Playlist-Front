@@ -1,3 +1,5 @@
+import {jwtDecode} from "jwt-decode";
+
 export class Token {
     public readonly ID: number;
     
@@ -5,7 +7,6 @@ export class Token {
         this.ID = ID;
     }
     public static Decoded(JWT: string): Token {
-        const payload = JWT.split(".")[1]
-        return  {ID:Number(JSON.parse(atob(payload)).sub)}
+    return {ID:Number(jwtDecode(JWT).sub!)}
     }
 }

@@ -4,8 +4,8 @@ import "./globals.css";
 
 
 export const metadata: Metadata = {
-  title: "VideoPlay",
-  description: "...",
+  title: "AuthApp",
+  description: "Auth App for do auth with mobile apps",
 };
 
 export default function RootLayout({

@@ -34,7 +34,7 @@ export function Screen(){
                 SetLoading(false);
                 return;
             }
-            let Res = await UserService.SignOut({Name,Email,Password})
+            let Res = await UserService.SignUp({Name,Email,Password})
             if(!Res) {
                 SetError("Erro ao criar conta.");
                 SetLoading(false);

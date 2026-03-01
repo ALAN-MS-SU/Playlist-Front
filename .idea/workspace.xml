@@ -5,34 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8e049dd-6421-444d-8c43-614d5d316b1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Services/API/Playlist/Playlist.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/API/Playlist/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Shared/Components/Grid/Box/Playlist/Box.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Shared/Components/Grid/Box/Playlist/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Shared/Components/Grid/Template.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Shared/Components/Grid/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Shared/Components/Screen/Sections/Home/Home.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Shared/Components/Screen/Sign/Out/Screen.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Types/Playlist/Playlist.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Types/Playlist/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utils/URL/Youtube.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utils/URL/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(Auth)/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(NoAuth)/Sign/Out/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Context/Auth/Context.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Context/Auth/Context.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/API/Playlist/Playlist.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/API/Playlist/index.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Services/API/User/User.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/API/User/User.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shared/Components/Form/Request/Error/Error.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shared/Components/Form/Request/Error/Error.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shared/Components/Form/Request/Loading/Loading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shared/Components/Form/Request/Loading/Loading.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shared/Components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shared/Components/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shared/Components/Header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shared/Components/Header/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shared/Components/Screen/Sections/Grid/Home/Home.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shared/Components/Screen/Sections/Grid/Home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shared/Components/Screen/Sections/Home/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shared/Components/Grid/Box/Playlist/Box.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shared/Components/Grid/Box/Playlist/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shared/Components/Grid/Template.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shared/Components/Grid/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shared/Components/Header/Header.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shared/Components/Header/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shared/Components/Screen/Sections/Home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shared/Components/Screen/Sections/Home/Home.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Shared/Components/Screen/Sign/In/Screen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shared/Components/Screen/Sign/In/Screen.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shared/Components/Text/Tittle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shared/Components/Text/Tittle.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(Any)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(Auth)/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(Any)/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shared/Components/Screen/Sign/Out/Screen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shared/Components/Screen/Sign/Out/Screen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Types/JWT/JWT.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Types/JWT/JWT.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Types/Playlist/Playlist.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Types/Playlist/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils/URL/Youtube.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils/URL/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(Auth)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(Auth)/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(NoAuth)/Sign/Out/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(NoAuth)/Sign/Up/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +57,7 @@
     &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
     &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
     &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/foot/Downloads/playlist&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/foot/Downloads/CaixaAPI&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -124,7 +120,14 @@
       <workItem from="1772032827662" duration="4381000" />
       <workItem from="1772052313334" duration="4936000" />
       <workItem from="1772206632766" duration="1774000" />
-      <workItem from="1772220129043" duration="3640000" />
+      <workItem from="1772220129043" duration="4370000" />
+      <workItem from="1772226171279" duration="7000" />
+      <workItem from="1772232377069" duration="1382000" />
+      <workItem from="1772240986872" duration="3080000" />
+      <workItem from="1772290082225" duration="876000" />
+      <workItem from="1772296272082" duration="2191000" />
+      <workItem from="1772307001698" duration="5074000" />
+      <workItem from="1772319529709" duration="2235000" />
     </task>
     <task id="LOCAL-00001" summary="Add JWT Auth">
       <option name="closed" value="true" />
@@ -205,6 +208,11 @@
           <url>file://$PROJECT_DIR$/src/Shared/Components/Screen/Sign/In/Screen.tsx</url>
           <line>1</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/Shared/Components/Screen/Sections/Home/Home.tsx</url>
+          <line>1</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
